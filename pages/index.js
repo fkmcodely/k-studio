@@ -3,6 +3,8 @@ import Image from 'next/image'
 import SkHeader from '../components/SkHeader'
 import SkSlider from '../components/SkSlider'
 import SkServices from '../components/SkServices'
+import SkSnapFeature from '../components/SkSnapFeature';
+import SkBanner from '../components/SkBanner';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <SkHeader />
       <SkSlider />
       <SkServices />
+      <SkSnapFeature />
+      <SkBanner />
     </div>
   )
 }

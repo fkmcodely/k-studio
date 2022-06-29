@@ -1,0 +1,38 @@
+.sk-banner {
+	background-color: #FFCE33;
+	padding: 3rem 1rem;
+
+	&__content {
+		display: flex !important;
+		gap: 1rem;
+		justify-content: center;
+		 h6{
+			color: #FFFFFF !important;
+			margin: 0 !important;
+		}
+		h3{
+			color: #000000 !important;
+			margin: 0 !important;
+		}
+
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+
+	&__message {
+		display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+
+		button {
+			text-align: center;
+			border: 2px solid #000000 !important;
+			background-color: transparent !important;
+			color: #000000 !important;
+		}
+	}
+	
+}

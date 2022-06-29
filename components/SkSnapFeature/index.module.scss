@@ -1,0 +1,19 @@
+.sk-snap {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #F1F2F3;
+	padding: 3rem 1rem !important;
+	&__container {
+		
+
+		h4 {
+			color: #FFCE33 !important;
+		}
+		h2 {
+			font-weight: bold !important;
+		}
+
+		p {
+			margin: 1.75rem 0rem;
+		}
+	}
+}
