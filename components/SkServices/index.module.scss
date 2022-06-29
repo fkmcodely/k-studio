@@ -1,0 +1,27 @@
+.sk-services {
+	margin-top: 1rem;
+  padding: 2.75rem 0.5rem;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	&__titles {
+		text-align: center;
+		h4 {
+			color: #FFCE33 !important;
+		}
+		h2 {
+			font-weight: bold !important;
+		}
+	}
+
+	&__list-service {
+		.column {
+			margin-bottom: 1rem !important;
+		}
+		span {
+			color: #FFCE33 !important;
+			font-weight: bold !important;
+			text-align: right;
+			text-decoration: underline;
+		}
+	}
+}

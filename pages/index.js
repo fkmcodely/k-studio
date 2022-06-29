@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import SkHeader from '../components/SkHeader'
+import SkSlider from '../components/SkSlider'
+import SkServices from '../components/SkServices'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SkHeader />
+      <SkSlider />
+      <SkServices />
     </div>
   )
 }

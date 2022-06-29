@@ -1,0 +1,31 @@
+.sk-slider {
+	margin-top: 2rem;
+
+	&__container {
+		background-image: url('/slider.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 200px;
+	}
+
+	&__content {
+		padding: 2.5rem 2.5rem !important;
+		background-color: rgba(0,0,0,0.75);
+
+		h3 {
+			color: #FFCE33 !important;
+			margin-bottom: 0px !important;
+		}
+		h1 {
+			color: #FFFFFF !important;
+			margin-top: 0px !important;
+			margin-bottom: 10px !important;
+			font-size: 20px;
+		}
+
+		button {
+			background-color: #FFCE33 !important;
+			color: #000000 !important;
+		}
+	}
+}
