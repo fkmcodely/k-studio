@@ -6,6 +6,7 @@ import SkServices from '../components/SkServices'
 import SkSnapFeature from '../components/SkSnapFeature';
 import SkBanner from '../components/SkBanner';
 import SkPortfolio from '../components/SkPortfolio';
+import SkContact from '../components/SkContact';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <SkSnapFeature />
       <SkBanner />
       <SkPortfolio />
+      <SkContact />
     </div>
   )
 }
