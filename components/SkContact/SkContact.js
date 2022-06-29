@@ -35,7 +35,7 @@ const SkContact = () => {
 								<span>Email:</span> kstudio@gmail.com
 							</p>
 							<p>
-								<span>WEb:</span> www.kstudio.com
+								<span>Web:</span> www.kstudio.com
 							</p>
 						</div>
 					</Grid.Column>

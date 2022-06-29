@@ -1,6 +1,9 @@
 .sk-banner {
 	background-color: #FFCE33;
 	padding: 3rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	&__content {
 		display: flex !important;
@@ -39,6 +42,12 @@
 			border: 2px solid #000000 !important;
 			background-color: transparent !important;
 			color: #000000 !important;
+
+			&:hover {
+				background-color: #000000 !important;
+				color: #ffffff !important;
+				transition: background-color, color 0.2s ease;
+			}
 		}
 	}
 	

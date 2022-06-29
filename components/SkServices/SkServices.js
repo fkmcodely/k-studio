@@ -15,7 +15,7 @@ const SkServices = () => {
 				</Grid.Row>
 				<Grid.Row className="sk-services__list-service">
 					<Grid.Column mobile={16}>
-						<Image src="/web.png" alt="" />
+						<Image src="/web.png" alt="" bordered />
 						<Header as="h3">Diseño Web</Header>
 						<p>
 							Diseño de páginas web claras, atractivas y efectivas que te ayudarán
@@ -25,7 +25,7 @@ const SkServices = () => {
 					</Grid.Column>
 					
 					<Grid.Column mobile={16}>
-						<Image src="/ecommerce.png" alt="" />
+						<Image src="/ecommerce.png" alt="" bordered/>
 						<Header as="h3">Diseño Web</Header>
 						<p>
 							Diseño de páginas web claras, atractivas y efectivas que te ayudarán
@@ -35,7 +35,7 @@ const SkServices = () => {
 					</Grid.Column>
 					
 					<Grid.Column mobile={16}>
-						<Image src="/seo.png" alt="" />
+						<Image src="/seo.png" alt="" bordered/>
 						<Header as="h3">Diseño Web</Header>
 						<p>
 							Diseño de páginas web claras, atractivas y efectivas que te ayudarán
