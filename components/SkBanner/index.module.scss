@@ -7,9 +7,11 @@
 		gap: 1rem;
 		justify-content: center;
 		&__info {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			text-align: center !important;
+			display: flex !important;
+			flex-direction: column !important;
+			align-items: center !important;
+			gap: 0.6rem !important;
 		}
 		 h6{
 			color: #FFFFFF !important;

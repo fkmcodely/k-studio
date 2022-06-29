@@ -1,0 +1,24 @@
+.sk-portafolio {
+	margin-top: 1rem;
+	padding: 3rem 0rem;
+	
+	&__title {
+		text-align: center;
+
+		h6 {
+			margin: 0px !important;
+			color: #FFCE33 !important;
+		}
+		h4 {
+			margin: 1rem 1rem !important;
+		}
+	}
+
+	&__item {
+		margin-bottom: 2rem !important;
+		h6 {
+			margin-top: 0px !important;
+			margin-bottom: 10px !important;
+		}
+	}
+}
