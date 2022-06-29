@@ -7,8 +7,8 @@ const SkBanner = () => {
 			<Grid columns={16}>
 				<Grid.Row>
 					<Grid.Column mobile={16} className="sk-banner__content">
-						<Image src="/address-book-solid.svg" alt="Adress Book" />
 						<div>
+							<Image src="/address-book-solid.svg" alt="Adress Book" />
 							<Header as="h3">PIDENOS PRESUPUESTO</Header>
 							<Header as="h6">SIN COMPROMISOS, PRESUPUESTOS EN MENOS DE 24 HORAS</Header>
 						</div>

@@ -6,6 +6,11 @@
 		display: flex !important;
 		gap: 1rem;
 		justify-content: center;
+		&__info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
 		 h6{
 			color: #FFFFFF !important;
 			margin: 0 !important;
@@ -22,8 +27,8 @@
 	}
 
 	&__message {
-		display: flex;
-    justify-content: center;
+		display: flex !important;
+    justify-content: center !important;
     align-items: center;
     padding: 1rem 0rem;
 
